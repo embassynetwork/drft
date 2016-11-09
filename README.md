@@ -1,6 +1,14 @@
 # Drft
 
-To start your Phoenix app:
+## Getting Running with Phoenix
+
+ From the Phoenix [install](http://www.phoenixframework.org/docs/installation) page:
+
+  * Install Elixir (this also installs Erlang): `brew install elixir`
+  * Install Phoenix `mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez`
+  * 
+
+## To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
   * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
