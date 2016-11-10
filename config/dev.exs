@@ -12,7 +12,7 @@ config :drft, Drft.Endpoint,
   code_reloader: true,
   check_origin: false,
   watchers: [
-    # node: ["./node_modules/.bin/webpack-dev-server", "--watch-stdin", "--colors",    cd: Path.expand("../", __DIR__)]
+    node: ["./node_modules/.bin/webpack-dev-server", "--watch-stdin", "--colors",    cd: Path.expand("../", __DIR__)]
   ]
 
 
