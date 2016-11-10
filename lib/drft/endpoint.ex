@@ -36,6 +36,5 @@ defmodule Drft.Endpoint do
   #   key: "_drft_key",
   #   signing_salt: "EVruI6iv"
 
-  plug Absinthe.Plug, schema: Drft.Schema
-  # plug Drft.Router
+  plug Drft.Router
 end
