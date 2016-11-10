@@ -35,6 +35,7 @@ defmodule Drft.Mixfile do
       {:phoenix_pubsub, "~> 1.0"},
       {:phoenix_ecto, "~> 3.0"},
       {:postgrex, ">= 0.0.0"},
+      {:phoenix_html, "~> 2.7"},
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
       {:absinthe, "~> 1.2.0"},

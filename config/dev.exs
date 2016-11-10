@@ -11,7 +11,9 @@ config :drft, Drft.Endpoint,
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
-  watchers: []
+  watchers: [
+    # node: ["./node_modules/.bin/webpack-dev-server", "--watch-stdin", "--colors",    cd: Path.expand("../", __DIR__)]
+  ]
 
 
 # Do not include metadata nor timestamps in development logs
