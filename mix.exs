@@ -19,7 +19,7 @@ defmodule Drft.Mixfile do
   def application do
     [mod: {Drft, []},
      applications: [:phoenix, :phoenix_pubsub, :cowboy, :logger, :gettext,
-                    :phoenix_ecto, :postgrex, :absinthe_plug]]
+                    :phoenix_ecto, :postgrex, :absinthe_plug, :absinthe_relay]]
   end
 
   # Specifies which paths to compile per environment.
@@ -38,7 +38,8 @@ defmodule Drft.Mixfile do
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
       {:absinthe, "~> 1.2.0"},
-      {:absinthe_plug, "~> 1.2.0"}
+      {:absinthe_plug, "~> 1.2.0"},
+      {:absinthe_relay, "~> 1.2.0"}
     ]
   end
 
